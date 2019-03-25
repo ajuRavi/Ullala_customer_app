@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/place"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="your place"
+            android:inputType="textPersonName"
+            android:background="@drawable/login"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"/>
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onSearch"
+            android:text="Search"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:background="@drawable/login"
+            android:stateListAnimator="@anim/blast"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/destinationplace"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="your place"
+            android:inputType="textPersonName"
+            android:background="@drawable/login"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:paddingRight="50dp"
+            android:paddingLeft="50dp"/>
+
+        <Button
+            android:id="@+id/search1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onSearch"
+            android:text="Search"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:background="@drawable/login"
+            android:stateListAnimator="@anim/blast"/>
+    </LinearLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="341dp"
+        android:layout_height="370dp"
+        tools:context=".main_Display" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/cartype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Select car type"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:background="@drawable/login"
+            android:stateListAnimator="@anim/blast"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+
+</LinearLayout>

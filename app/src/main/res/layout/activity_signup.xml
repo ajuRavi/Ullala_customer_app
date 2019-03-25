@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/circle"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="22dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="30dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/photolayout">
+
+        <ImageButton
+            android:id="@+id/photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="10dp"
+            app:srcCompat="@drawable/imageicon"
+            android:background="@drawable/borderimage"
+            />
+    </LinearLayout>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/username"
+        android:layout_below="@+id/photolayout"
+        android:hint="ENTER YOUR NAME"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/login"
+        android:paddingLeft="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@id/number"
+        android:layout_below="@+id/username"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="phone number"
+        android:textSize="23dp"
+        android:maxLength="15"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:paddingLeft="25dp"
+        android:background="@drawable/login"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+
+        />
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:id="@+id/Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:stateListAnimator="@anim/blast"
+        android:text=" Sign up "
+        android:textColor="@color/black"
+        android:textSize="22dp"
+
+        android:layout_below="@+id/number"
+       />
+
+
+</RelativeLayout>
+</RelativeLayout>

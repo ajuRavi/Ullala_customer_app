@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "454729672350",
+    "firebase_url": "https://ullalla-ce4f9.firebaseio.com",
+    "project_id": "ullalla-ce4f9",
+    "storage_bucket": "ullalla-ce4f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454729672350:android:e612a823792d9d82",
+        "android_client_info": {
+          "package_name": "com.example.ravisundar.ola"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454729672350-hloid2oocojv3uvh37taccl61ib420cq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ravisundar.ola",
+            "certificate_hash": "e8bef242f969d9c13a8f09341df1d6bc5551beb4"
+          }
+        },
+        {
+          "client_id": "454729672350-41kdo4d0qmesuck28p2h99e67oiuj40s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmQb40KmgXMrgFs7ar7YkbFbnlx310tSw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454729672350-41kdo4d0qmesuck28p2h99e67oiuj40s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

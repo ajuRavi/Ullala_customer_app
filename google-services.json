@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "454729672350",
+    "firebase_url": "https://ullalla-ce4f9.firebaseio.com",
+    "project_id": "ullalla-ce4f9",
+    "storage_bucket": "ullalla-ce4f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454729672350:android:e612a823792d9d82",
+        "android_client_info": {
+          "package_name": "com.example.ravisundar.ola"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454729672350-41kdo4d0qmesuck28p2h99e67oiuj40s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKSguIiqCpWzx84ikDudkN7AsRvrtiYzY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ola</string>
+    <string name="title_activity_main_screem">main_screem</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_display">mainDisplay</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main__display">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_place_api"> AIzaSyCKSguIiqCpWzx84ikDudkN7AsRvrtiYzY</string>
+    <string name="your_place">your place</string>
+</resources>
